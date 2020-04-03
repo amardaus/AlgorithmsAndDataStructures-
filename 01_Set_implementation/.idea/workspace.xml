@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="01_Set_implementation" targetName="Set_10mln" />
+      <config projectName="01_Set_implementation" targetName="Set" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b772b37b-d217-4e82-beeb-bcce946baf17" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1YRLMVBqNGYcCN4A9Lw2RUE6tfj" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_PriorityQueue" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/old" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.Set_10mln">
+    <configuration name="Set" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="01_Set_implementation" TARGET_NAME="Set" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="01_Set_implementation" RUN_TARGET_NAME="Set">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Set_10mln" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="01_Set_implementation" TARGET_NAME="Set_10mln" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="01_Set_implementation" RUN_TARGET_NAME="Set_10mln">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Set" />
+      <item itemvalue="CMake Application.Set_10mln" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b772b37b-d217-4e82-beeb-bcce946baf17" name="Default Changelist" comment="" />
+      <created>1582900411612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582900411612</updated>
+      <workItem from="1582900413076" duration="21000" />
+      <workItem from="1582900445767" duration="671000" />
+      <workItem from="1582901132430" duration="5000" />
+      <workItem from="1582972860834" duration="70000" />
+      <workItem from="1582991251833" duration="3449000" />
+      <workItem from="1583018094449" duration="1439000" />
+      <workItem from="1583050012076" duration="12494000" />
+      <workItem from="1583063127865" duration="1829000" />
+      <workItem from="1583095154541" duration="6951000" />
+      <workItem from="1583103646388" duration="2315000" />
+      <workItem from="1583138680786" duration="2989000" />
+      <workItem from="1583149054765" duration="1413000" />
+      <workItem from="1583151693128" duration="817000" />
+      <workItem from="1583161078238" duration="113000" />
+      <workItem from="1583161454262" duration="942000" />
+      <workItem from="1583166580224" duration="82000" />
+      <workItem from="1583228889064" duration="1494000" />
+      <workItem from="1583244720323" duration="41000" />
+      <workItem from="1583255074933" duration="86000" />
+      <workItem from="1583255229001" duration="134000" />
+      <workItem from="1583255377229" duration="30000" />
+      <workItem from="1583255655397" duration="873000" />
+      <workItem from="1583256611404" duration="433000" />
+      <workItem from="1583258530975" duration="123000" />
+      <workItem from="1583258730223" duration="91000" />
+      <workItem from="1583258838733" duration="10000" />
+      <workItem from="1583577610108" duration="1872000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

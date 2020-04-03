@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/INT.dir/SET_INT.cpp.o  -o INT 

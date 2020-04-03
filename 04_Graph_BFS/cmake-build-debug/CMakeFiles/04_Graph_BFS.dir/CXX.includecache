@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/04_Graph_DFS/graph_bfs.cpp
+iostream
+-
+vector
+-
+fstream
+-
+sstream
+-
+climits
+-
+queue
+-
+

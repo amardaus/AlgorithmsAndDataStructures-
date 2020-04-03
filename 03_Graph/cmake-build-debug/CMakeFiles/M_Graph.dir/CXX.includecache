@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/03_Graph/adjacency_matrix_graph.cpp
+iostream
+-
+vector
+-
+fstream
+-
+sstream
+-
+

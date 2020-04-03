@@ -1,0 +1,22 @@
+digraph {
+	v -> r[label="1"];
+	r -> v[label="1"];
+	r -> s[label="1"];
+	s -> r[label="1"];
+	s -> w[label="1"];
+	w -> s[label="1"];
+	w -> t[label="1"];
+	w -> x[label="1"];
+	t -> w[label="1"];
+	t -> x[label="1"];
+	t -> u[label="1"];
+	x -> w[label="1"];
+	x -> t[label="1"];
+	x -> u[label="1"];
+	x -> y[label="1"];
+	u -> t[label="1"];
+	u -> x[label="1"];
+	u -> y[label="1"];
+	y -> u[label="1"];
+	y -> x[label="1"];
+}

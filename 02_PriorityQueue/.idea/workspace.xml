@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="02_PriorityQueue" targetName="02_PriorityQueue" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbd8cf9e-8b2b-4154-b9eb-62033ada4ca9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1YczAi8vf3k3Vebrlzueehm55Ld" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="02_PriorityQueue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_PriorityQueue" TARGET_NAME="02_PriorityQueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_PriorityQueue" RUN_TARGET_NAME="02_PriorityQueue">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbd8cf9e-8b2b-4154-b9eb-62033ada4ca9" name="Default Changelist" comment="" />
+      <created>1583256528355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583256528355</updated>
+      <workItem from="1583256529702" duration="2195000" />
+      <workItem from="1583258850022" duration="1202000" />
+      <workItem from="1583575747997" duration="5844000" />
+      <workItem from="1583752658365" duration="981000" />
+      <workItem from="1583755157071" duration="597000" />
+      <workItem from="1583756450097" duration="3802000" />
+      <workItem from="1583761382842" duration="537000" />
+      <workItem from="1583765182759" duration="1347000" />
+      <workItem from="1583786052230" duration="602000" />
+      <workItem from="1583828322206" duration="3510000" />
+      <workItem from="1583919511853" duration="599000" />
+      <workItem from="1584183034378" duration="74000" />
+      <workItem from="1584187696355" duration="464000" />
+      <workItem from="1584347886848" duration="94000" />
+      <workItem from="1584347993640" duration="489000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

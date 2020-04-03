@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/01_Set_implementation/SET_INT.cpp
+iostream
+-
+vector
+-
+fstream
+-
+chrono
+-
+iomanip
+-
+
