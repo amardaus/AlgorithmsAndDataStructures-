@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/06_Graph_Strongly_Connected_Components/countStronglyConnectedComponents.cpp
+iostream
+-
+vector
+-
+fstream
+-
+sstream
+-
+queue
+-
+algorithm
+-
+functional
+-
+
