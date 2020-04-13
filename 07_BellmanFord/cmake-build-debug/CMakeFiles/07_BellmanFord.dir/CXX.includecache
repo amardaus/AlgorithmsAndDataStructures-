@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/07_BellmanFord/bellman_ford.cpp
+iostream
+-
+vector
+-
+fstream
+-
+sstream
+-
+queue
+-
+algorithm
+-
+functional
+-
+climits
+-
+map
+-
+
