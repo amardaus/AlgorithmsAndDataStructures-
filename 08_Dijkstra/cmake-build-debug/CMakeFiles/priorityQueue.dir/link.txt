@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpriorityQueue.a  CMakeFiles/priorityQueue.dir/PriorityQueue.cpp.o
+/usr/bin/ranlib libpriorityQueue.a

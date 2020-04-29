@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/08_Dijkstra.dir/main.cpp.o  -o 08_Dijkstra 

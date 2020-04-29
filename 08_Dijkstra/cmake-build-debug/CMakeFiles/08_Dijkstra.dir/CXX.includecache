@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/PriorityQueue.h
+climits
+-
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/main.cpp
+iostream
+-
+vector
+-
+fstream
+-
+sstream
+-
+queue
+-
+algorithm
+-
+functional
+-
+map
+-
+chrono
+-
+PriorityQueue.h
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/PriorityQueue.h
+

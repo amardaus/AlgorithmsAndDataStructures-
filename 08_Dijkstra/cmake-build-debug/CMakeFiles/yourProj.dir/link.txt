@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/yourProj.dir/PriorityQueue.cpp.o  -o yourProj 
