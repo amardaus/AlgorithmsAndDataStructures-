@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/prev.cpp
+iostream
+-
+vector
+-
+fstream
+-
+sstream
+-
+queue
+-
+algorithm
+-
+functional
+-
+map
+-
+climits
+-
+cstring
+-
+

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Wa
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/olcia/Downloads/clion-2019.2.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/olcia/Downloads/clion-2019.2.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -123,6 +123,19 @@ depend:
 	$(MAKE) -f CMakeFiles/09_Floyd_Warshall.dir/build.make CMakeFiles/09_Floyd_Warshall.dir/build
 .PHONY : 09_Floyd_Warshall/fast
 
+#=============================================================================
+# Target rules for targets named Prev
+
+# Build rule for target.
+Prev: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prev
+.PHONY : Prev
+
+# fast build rule for target.
+Prev/fast:
+	$(MAKE) -f CMakeFiles/Prev.dir/build.make CMakeFiles/Prev.dir/build
+.PHONY : Prev/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,18 +163,49 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/09_Floyd_Warshall.dir/build.make CMakeFiles/09_Floyd_Warshall.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+prev.o: prev.cpp.o
+
+.PHONY : prev.o
+
+# target to build an object file
+prev.cpp.o:
+	$(MAKE) -f CMakeFiles/Prev.dir/build.make CMakeFiles/Prev.dir/prev.cpp.o
+.PHONY : prev.cpp.o
+
+prev.i: prev.cpp.i
+
+.PHONY : prev.i
+
+# target to preprocess a source file
+prev.cpp.i:
+	$(MAKE) -f CMakeFiles/Prev.dir/build.make CMakeFiles/Prev.dir/prev.cpp.i
+.PHONY : prev.cpp.i
+
+prev.s: prev.cpp.s
+
+.PHONY : prev.s
+
+# target to generate assembly for a file
+prev.cpp.s:
+	$(MAKE) -f CMakeFiles/Prev.dir/build.make CMakeFiles/Prev.dir/prev.cpp.s
+.PHONY : prev.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... 09_Floyd_Warshall"
 	@echo "... edit_cache"
+	@echo "... 09_Floyd_Warshall"
+	@echo "... rebuild_cache"
+	@echo "... Prev"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... prev.o"
+	@echo "... prev.i"
+	@echo "... prev.s"
 .PHONY : help
 
 

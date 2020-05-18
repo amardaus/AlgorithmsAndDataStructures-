@@ -17,11 +17,11 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
+			<Target title="edit_cache">
 				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -73,11 +73,57 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="rebuild_cache">
 				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Prev">
+				<Option output="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Prev" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 Prev"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Prev/fast">
+				<Option output="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Prev" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 Prev/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -86,6 +132,9 @@
 		</Build>
 		<Unit filename="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/main.cpp">
 			<Option target="09_Floyd_Warshall"/>
+		</Unit>
+		<Unit filename="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/prev.cpp">
+			<Option target="Prev"/>
 		</Unit>
 		<Unit filename="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

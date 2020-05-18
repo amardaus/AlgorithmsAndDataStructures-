@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/08_Dijkstra.dir/build.make CMakeFiles/08_Dijkstra.dir/build
 .PHONY : 08_Dijkstra/fast
 
-main.o: main.cpp.o
+dijkstra.o: dijkstra.cpp.o
 
-.PHONY : main.o
+.PHONY : dijkstra.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/08_Dijkstra.dir/build.make CMakeFiles/08_Dijkstra.dir/main.cpp.o
-.PHONY : main.cpp.o
+dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/08_Dijkstra.dir/build.make CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.o
+.PHONY : dijkstra.cpp.o
 
-main.i: main.cpp.i
+dijkstra.i: dijkstra.cpp.i
 
-.PHONY : main.i
+.PHONY : dijkstra.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/08_Dijkstra.dir/build.make CMakeFiles/08_Dijkstra.dir/main.cpp.i
-.PHONY : main.cpp.i
+dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/08_Dijkstra.dir/build.make CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.i
+.PHONY : dijkstra.cpp.i
 
-main.s: main.cpp.s
+dijkstra.s: dijkstra.cpp.s
 
-.PHONY : main.s
+.PHONY : dijkstra.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/08_Dijkstra.dir/build.make CMakeFiles/08_Dijkstra.dir/main.cpp.s
-.PHONY : main.cpp.s
+dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/08_Dijkstra.dir/build.make CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.s
+.PHONY : dijkstra.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 08_Dijkstra"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... dijkstra.o"
+	@echo "... dijkstra.i"
+	@echo "... dijkstra.s"
 .PHONY : help
 
 

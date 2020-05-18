@@ -197,7 +197,7 @@ struct Graph {
 
         initialize(startVertex);
         vector<Vertex<T>*> S;
-        PriorityQueue<Vertex<T>*> pq;
+        PriorityQueue<Vertex<T>*> pq(vertices.size());
         for(int i = 0; i < vertices.size(); i++){
             pq.minHeapInsert(vertices.at(i), &vertices.at(i)->d);
         }
@@ -214,10 +214,6 @@ struct Graph {
         auto end = std::chrono::steady_clock::now();
         float duration = std::chrono::duration_cast<chrono::microseconds>(end - start).count();
         result.setTime(duration/1000.0);
-
-        /*for(int i = 0; i < S.size(); i++){
-            cout << S.at(i)->vertexName << "[" << S.at(i)->d << "] ";
-        }*/
 
         for(int i = 0; i < endVertices.size(); i++){
             result.setDistance(endVertices.at(i)->d);

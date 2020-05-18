@@ -7,6 +7,7 @@
 #include <functional>
 #include <map>
 #include <climits>
+#include <cstring>
 
 using namespace std;
 
@@ -164,7 +165,6 @@ struct Graph {
         }
 
         for(int i = 0; i < n; i++){
-            D[i][i] = 0;
             for(int j = 0; j < n; j++){
                 if(i != j){
                     D[i][j] = INT_MAX;
@@ -173,6 +173,7 @@ struct Graph {
         }
 
         for(int i = 0; i < vertices.size(); i++){
+            D[i][i] = 0;
             for(int j = 0; j < vertices.at(i)->adjacencies.size(); j++) {
                 int ai = vertices.at(i)->vertexName-1;
                 int bi = vertices.at(i)->adjacencies.at(j).vertex->vertexName-1;
@@ -180,9 +181,9 @@ struct Graph {
             }
         }
 
-        for(int k = 0; k < n-1; k++) {
-            for (int i = 0; i < n-1; i++) {
-                for (int j = 0; j < n-1; j++) {
+        for(int k = 0; k < n; k++) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
                     if(D[i][k] != INT_MAX && D[k][j] != INT_MAX){
                         D[i][j] = min(D[i][j], D[i][k] + D[k][j]);
                     }
@@ -193,8 +194,9 @@ struct Graph {
         for(int i = 0; i < pairs.size(); i++){
             int a = pairs.at(i).first;
             int b = pairs.at(i).second;
-            cout << a << "," << b << ": " << D[a-1][b-1] << endl;
+            cout << D[a-1][b-1] << " ";
         }
+        cout << endl;
     }
 
 };
@@ -203,7 +205,7 @@ int main(int argc, char* argv[]) {
     string filename;
     vector<pair<int,int>> pairs;
 
-    /*if(argc < 3){
+    if(argc < 3){
         cout << "Podano nieprawidlowa liczbe argumentow" << endl;
         exit(EXIT_FAILURE);
     }
@@ -215,13 +217,11 @@ int main(int argc, char* argv[]) {
         ab = strtok(nullptr, ",");
         int b = stoi(ab);
         pairs.emplace_back(a,b);
-        cout << "pair: " << a << "->" << b << endl ;
-    }*/
+    }
 
-    filename = "graphs/1000.csv";
-    pairs.emplace_back(4,5);
-    pairs.emplace_back(20,780);
-    pairs.emplace_back(10,33);
+    //filename = "graphs/1000.csv";
+    //pairs.emplace_back(20,780);
+    //pairs.emplace_back(10,33);
 
     Graph<int> g = g.readGraph(filename);
     //g.printEdges();

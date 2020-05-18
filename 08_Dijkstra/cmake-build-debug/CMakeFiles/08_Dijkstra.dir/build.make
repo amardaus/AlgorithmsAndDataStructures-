@@ -57,27 +57,27 @@ include CMakeFiles/08_Dijkstra.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/08_Dijkstra.dir/flags.make
 
-CMakeFiles/08_Dijkstra.dir/main.cpp.o: CMakeFiles/08_Dijkstra.dir/flags.make
-CMakeFiles/08_Dijkstra.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/08_Dijkstra.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_Dijkstra.dir/main.cpp.o -c /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/main.cpp
+CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.o: CMakeFiles/08_Dijkstra.dir/flags.make
+CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.o: ../dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.o -c /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/dijkstra.cpp
 
-CMakeFiles/08_Dijkstra.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_Dijkstra.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/main.cpp > CMakeFiles/08_Dijkstra.dir/main.cpp.i
+CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/dijkstra.cpp > CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.i
 
-CMakeFiles/08_Dijkstra.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_Dijkstra.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/main.cpp -o CMakeFiles/08_Dijkstra.dir/main.cpp.s
+CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/dijkstra.cpp -o CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.s
 
 # Object files for target 08_Dijkstra
 08_Dijkstra_OBJECTS = \
-"CMakeFiles/08_Dijkstra.dir/main.cpp.o"
+"CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.o"
 
 # External object files for target 08_Dijkstra
 08_Dijkstra_EXTERNAL_OBJECTS =
 
-08_Dijkstra: CMakeFiles/08_Dijkstra.dir/main.cpp.o
+08_Dijkstra: CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.o
 08_Dijkstra: CMakeFiles/08_Dijkstra.dir/build.make
 08_Dijkstra: CMakeFiles/08_Dijkstra.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 08_Dijkstra"

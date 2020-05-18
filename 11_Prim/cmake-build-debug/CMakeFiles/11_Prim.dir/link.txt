@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/11_Prim.dir/main.cpp.o  -o 11_Prim 

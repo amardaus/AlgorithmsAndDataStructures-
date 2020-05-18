@@ -1,0 +1,3 @@
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/10_Kruskal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/10_Kruskal/cmake-build-debug/CMakeFiles/10_Kruskal.dir
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/10_Kruskal/cmake-build-debug/CMakeFiles/edit_cache.dir

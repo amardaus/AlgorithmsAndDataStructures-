@@ -1,0 +1,16 @@
+graph {
+	c -- f[label="4"];
+	c -- d[label="7"];
+	d -- f[label="14"];
+	d -- e[label="9"];
+	e -- f[label="10"];
+	f -- g[label="2"];
+	g -- h[label="1"];
+	g -- i[label="6"];
+	h -- i[label="7"];
+	a -- b[label="4"];
+	a -- h[label="8"];
+	b -- h[label="11"];
+	b -- c[label="8"];
+	c -- i[label="2"];
+}

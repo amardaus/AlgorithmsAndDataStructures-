@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/main.cpp" "/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/cmake-build-debug/CMakeFiles/08_Dijkstra.dir/main.cpp.o"
+  "/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/dijkstra.cpp" "/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/08_Dijkstra/cmake-build-debug/CMakeFiles/08_Dijkstra.dir/dijkstra.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

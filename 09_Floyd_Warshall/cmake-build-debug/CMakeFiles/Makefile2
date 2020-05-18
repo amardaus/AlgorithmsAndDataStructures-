@@ -54,11 +54,13 @@ CMAKE_BINARY_DIR = /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Wa
 
 # The main recursive "all" target.
 all: CMakeFiles/09_Floyd_Warshall.dir/all
+all: CMakeFiles/Prev.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/09_Floyd_Warshall.dir/clean
+clean: CMakeFiles/Prev.dir/clean
 
 .PHONY : clean
 
@@ -93,6 +95,33 @@ CMakeFiles/09_Floyd_Warshall.dir/rule: cmake_check_build_system
 CMakeFiles/09_Floyd_Warshall.dir/clean:
 	$(MAKE) -f CMakeFiles/09_Floyd_Warshall.dir/build.make CMakeFiles/09_Floyd_Warshall.dir/clean
 .PHONY : CMakeFiles/09_Floyd_Warshall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Prev.dir
+
+# All Build rule for target.
+CMakeFiles/Prev.dir/all:
+	$(MAKE) -f CMakeFiles/Prev.dir/build.make CMakeFiles/Prev.dir/depend
+	$(MAKE) -f CMakeFiles/Prev.dir/build.make CMakeFiles/Prev.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Prev"
+.PHONY : CMakeFiles/Prev.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Prev.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Prev.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/olcia/Documents/2_AlgorytmyiStrukturyDanych/09_Floyd_Warshall/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Prev.dir/rule
+
+# Convenience name for target.
+Prev: CMakeFiles/Prev.dir/rule
+
+.PHONY : Prev
+
+# clean rule for target.
+CMakeFiles/Prev.dir/clean:
+	$(MAKE) -f CMakeFiles/Prev.dir/build.make CMakeFiles/Prev.dir/clean
+.PHONY : CMakeFiles/Prev.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
