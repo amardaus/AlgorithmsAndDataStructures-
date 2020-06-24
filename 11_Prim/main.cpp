@@ -168,13 +168,14 @@ struct Graph {
 
     void prim(Vertex<T>* startV){
         PriorityQueue<Vertex<T>*> queue(count);
-        for(int i = 0; i < vertices.size(); i++){
+        for(int i = 0; i < count; i++){
             vertices.at(i)->key = INT_MAX;
             vertices.at(i)->parent = nullptr;
+            vertices.at(i)->color = WHITE;
         }
         startV->key = 0;
 
-        for(int i = 0; i < vertices.size(); i++){
+        for(int i = 0; i < count; i++){
             queue.minHeapInsert(vertices.at(i), &vertices.at(i)->key);
         }
 
@@ -182,6 +183,7 @@ struct Graph {
         while(!queue.isEmpty()){
             Vertex<T>* u = queue.extractMin().value;
             weight += u->key;
+            //cout << u->vertexName << ": " << u->key << endl;
             for(int i = 0; i < u->adjacencies.size(); i++){
                 Vertex<T>* v = u->adjacencies.at(i).first;
                 int w = u->adjacencies.at(i).second;
@@ -189,26 +191,31 @@ struct Graph {
                     v->key = w;
                 }
             }
+            queue.heap.buildMinHeap();
             u->color = BLACK;
         }
-        cout << weight;     //POWINNO BYC 38 a nie 41, cos jest zleee
+        cout << weight << endl;
     }
 };
 
 int main(int argc, char* argv[]) {
     string filename;
+    int startV;
 
-    /*if(argc < 3){
+    //filename = "graphs/1000000.csvo";
+    //startV = 1;
+
+    if(argc < 3) {
         cout << "Podano nieprawidlowa liczbe argumentow" << endl;
         exit(EXIT_FAILURE);
-    }
-    filename = argv[1];
-    startV = stoi(argv[2]);*/
 
-    filename = "10.csvo";
-    Graph<char> g = g.readGraph(filename);
-    Vertex<char>* start = g.getVertex('a');
+    }
+
+    filename = argv[1];
+    startV = atoi(argv[2]);
+    //startV = reinterpret_cast<char>(*argv[2]);
+
+    Graph<int> g = g.readGraph(filename);
+    Vertex<int>* start = g.getVertex(startV);
     g.prim(start);
-    //g.printEdges();
-    //g.exportCSV("out.csv");
 }

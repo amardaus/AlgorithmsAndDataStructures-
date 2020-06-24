@@ -33,7 +33,7 @@ Element<T>::Element(T value, int* priority): value(value), priority(priority) {
 
 template<typename T>
 bool Element<T>::operator>(const Element &other) {
-    return this->priority > other.priority;
+    return *this->priority > *other.priority;
 }
 
 template<typename T>
@@ -87,10 +87,10 @@ void Heap<T>::heapify(int i) {
     int r = right(i);
     int smallest = i;
 
-    if(l < heapSize && *elements[l].priority < *elements[i].priority){
+    if(l < heapSize && elements[l] < elements[smallest]){
         smallest = l;
     }
-    if(r < heapSize && *elements[r].priority < *elements[i].priority){
+    if(r < heapSize && elements[r] < elements[smallest]){
         smallest = r;
     }
 
@@ -132,7 +132,7 @@ struct PriorityQueue{
 
 template<typename T>
 int PriorityQueue<T>::getMinPriority() {
-    return heap.elements[0].priority;
+    return *(heap.elements[0].priority);
 }
 
 template<typename T>
@@ -157,7 +157,7 @@ PriorityQueue<T>::~PriorityQueue() {
 template<typename T>
 void PriorityQueue<T>::printHeap() {
     for(int i = 0; i < heap.heapSize; i++){
-        cout << heap.elements[i].value << "(" << heap.elements[i].priority << ") ";
+        cout << heap.elements[i].value << "(" << *heap.elements[i].priority << ") ";
     }
 }
 
@@ -181,5 +181,8 @@ template<typename T>
 bool PriorityQueue<T>::isEmpty() {
     return heap.heapSize == 0;
 }
+
+
+
 
 #endif //INC_08_DIJKSTRA_PRIORITYQUEUE_H

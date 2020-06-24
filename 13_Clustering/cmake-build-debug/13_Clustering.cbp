@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="13_Clustering"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Extended_version">
+				<Option output="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Extended_version" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extended_version"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Extended_version/fast">
+				<Option output="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Extended_version" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extended_version/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Basic_version">
+				<Option output="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Basic_version" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Basic_version"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Basic_version/fast">
+				<Option output="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Basic_version" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 Basic_version/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/main.cpp">
+			<Option target="Extended_version"/>
+		</Unit>
+		<Unit filename="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/main_v1.cpp">
+			<Option target="Basic_version"/>
+		</Unit>
+		<Unit filename="/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/13_Clustering/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

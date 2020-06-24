@@ -168,17 +168,20 @@ struct Graph {
     }
 
     void exportCSV(const string& filename){
+        int sum = 0;
+
         ofstream output;
         output.open(filename);
         for(int i = 0; i < edges.size(); i++){
             output << edges[i]->start->vertexName << "," << edges[i]->end->vertexName << "," << setprecision(1) << fixed << 1.0*edges[i]->weight << endl;
+            sum += edges[i]->weight;
         }
+        cout << "Sum: " << sum << endl;
         output.close();
     }
 
     Graph<T> kruskal(const string& filename) {
         Graph<T> result;
-
         for (int i = 0; i < vertices.size(); i++) {
             makeSet(vertices.at(i));
             result.addVertex(vertices.at(i));
@@ -212,6 +215,9 @@ int main(int argc, char* argv[]) {
     string filename;
     string output_filename;
 
+    //filename = "graphs/100.csvo";
+    //output_filename = "output.csv";
+
     if(argc != 3){
         cout << "Podano nieprawidlowa liczbe argumentow" << endl;
         exit(EXIT_FAILURE);
@@ -219,7 +225,7 @@ int main(int argc, char* argv[]) {
     filename = argv[1];
     output_filename = argv[2];
 
-    Graph<char> g = g.readGraph(filename);
+    Graph<int> g = g.readGraph(filename);
     auto result = g.kruskal(output_filename);
     result.exportCSV(output_filename);
 }

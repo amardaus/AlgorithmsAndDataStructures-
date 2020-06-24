@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/Other/KruskalDisjointSet/main.cpp
+iostream
+-
+vector
+-
+queue
+-
+algorithm
+-
+functional
+-
+map
+-
+fstream
+-
+iomanip
+-
+chrono
+-
+

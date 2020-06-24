@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/KruskalDisjointSet.dir/main.cpp.o  -o KruskalDisjointSet 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Basic_version.dir/main_v1.cpp.o  -o Basic_version 

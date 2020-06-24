@@ -1,0 +1,6 @@
+set pointsize 0.5
+plot "< awk '{if($3 == \"0\") print}' clusters.dat" u 1:2 t "0" w p pt 7, \
+"< awk '{if($3 == \"1\") print}' clusters.dat" u 1:2 t "1" w p pt 7, \
+"< awk '{if($3 == \"2\") print}' clusters.dat" u 1:2 t "2" w p pt 7, \
+"< awk '{if($3 == \"3\") print}' clusters.dat" u 1:2 t "3" w p pt 7, \
+"< awk '{if($3 == \"4\") print}' clusters.dat" u 1:2 t "4" w p pt 7

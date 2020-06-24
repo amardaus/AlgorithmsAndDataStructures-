@@ -12,7 +12,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b772b37b-d217-4e82-beeb-bcce946baf17" name="Default Changelist" comment="" />
+    <list default="true" id="b772b37b-d217-4e82-beeb-bcce946baf17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Kruskal_2/.idea/12_Kruskal_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_Kruskal_2/Set.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Other/DisjointSet/.idea/DisjointSet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Other/DisjointSet/DisjointSet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Other/DisjointSet/copy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Other/Points/.idea/Points.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_Kruskal.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_Kruskal/cmake-build-debug/10_Kruskal" beforeDir="false" afterPath="$PROJECT_DIR$/../10_Kruskal/cmake-build-debug/10_Kruskal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_Kruskal/cmake-build-debug/CMakeFiles/10_Kruskal.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../10_Kruskal/cmake-build-debug/CMakeFiles/10_Kruskal.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_Kruskal/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../10_Kruskal/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Prim/PriorityQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Prim/PriorityQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Prim/cmake-build-debug/10.csvo" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Prim/cmake-build-debug/10.csvo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Prim/cmake-build-debug/11_Prim" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Prim/cmake-build-debug/11_Prim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Prim/cmake-build-debug/CMakeFiles/11_Prim.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Prim/cmake-build-debug/CMakeFiles/11_Prim.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_Prim/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../11_Prim/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +55,15 @@
     <select />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YRLMVBqNGYcCN4A9Lw2RUE6tfj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_PriorityQueue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -119,10 +142,22 @@
       <workItem from="1583258730223" duration="91000" />
       <workItem from="1583258838733" duration="10000" />
       <workItem from="1583577610108" duration="1872000" />
+      <workItem from="1591017545881" duration="815000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

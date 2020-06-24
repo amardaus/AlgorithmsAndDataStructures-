@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DisjointSet.dir/main.cpp.o  -o DisjointSet 

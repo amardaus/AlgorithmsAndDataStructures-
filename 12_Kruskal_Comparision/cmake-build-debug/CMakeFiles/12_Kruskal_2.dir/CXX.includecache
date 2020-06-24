@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/12_Kruskal_Comparision/Set.cpp
+iostream
+-
+vector
+-
+iomanip
+-
+
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/12_Kruskal_Comparision/main.cpp
+iostream
+-
+vector
+-
+queue
+-
+algorithm
+-
+functional
+-
+map
+-
+fstream
+-
+iomanip
+-
+chrono
+-
+Set.cpp
+/home/olcia/Documents/2_AlgorytmyiStrukturyDanych/12_Kruskal_Comparision/Set.cpp
+
